@@ -5,6 +5,7 @@ import { set_sidebar } from "../utils/auto_sidebar.mjs"; // 改成自己的路�
 export default defineConfig({
   title: "Huang的文档网站",
   description: "A VitePress Site",
+  base: "/hjh-docs/",
   themeConfig: {
     outlineTitle: "文章标题",
     outline: [2, 6],
